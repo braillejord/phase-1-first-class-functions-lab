@@ -17,3 +17,12 @@ function createFareMultiplier(fare) {
         return (fare * fare)
     }
 }
+const fareDoubler = function(fare) {
+    let dubFare = fare * 2
+    return dubFare
+}
+
+const fareTripler = function(fare) {
+    let tripFare = fare * 3
+    return tripFare
+}
