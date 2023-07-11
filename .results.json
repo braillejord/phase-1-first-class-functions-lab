@@ -1,13 +1,13 @@
 {
   "stats": {
     "suites": 8,
-    "tests": 11,
-    "passes": 11,
+    "tests": 13,
+    "passes": 13,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-07-11T12:02:12.436Z",
-    "end": "2023-07-11T12:02:12.831Z",
-    "duration": 395
+    "failures": 0,
+    "start": "2023-07-11T19:51:52.686Z",
+    "end": "2023-07-11T19:51:53.288Z",
+    "duration": 602
   },
   "tests": [
     {
@@ -55,7 +55,7 @@
     {
       "title": "should multiply a given value using the created multiplier",
       "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -86,21 +86,24 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {}
-    }
-  ],
-  "pending": [],
-  "failures": [
+    },
     {
       "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectDifferentDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:74:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "selectDifferentDrivers is not defined"
-      }
+      "err": {}
+    },
+    {
+      "title": "returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
+      "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
     }
   ],
+  "pending": [],
+  "failures": [],
   "passes": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
@@ -147,7 +150,7 @@
     {
       "title": "should multiply a given value using the created multiplier",
       "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -175,6 +178,20 @@
     {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
+      "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
+      "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
